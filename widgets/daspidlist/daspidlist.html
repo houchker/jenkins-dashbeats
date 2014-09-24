@@ -1,0 +1,13 @@
+<h1 class="title" data-bind="title"></h1>
+
+  <table>
+  <tr data-foreach-item="items">
+    <td align='left'><a data-bind-href="item.url" ><span class="label" data-bind="item.col1"></span></a></td>
+    <td align='left'><a data-bind-href="item.url" ><span class="value" data-bind="item.col2"></span></a></td>
+    <td align='left'><a data-bind-href="item.url" ><span class="value" data-bind="item.col3"></span></a></td>
+  </tr>
+  </table>
+
+
+<p class="more-info" data-bind="moreinfo"></p>
+<p class="updated-at" data-bind="updatedAtMessage"></p>
